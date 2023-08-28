@@ -1,0 +1,36 @@
+.dropdown-input-container {
+  position: relative;
+  display: inline-block;
+  margin: 0.4rem 0.7rem;
+}
+
+input {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  min-width: 10rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 100%;
+  max-height: 8rem;
+  overflow-y: auto;
+  color: #00000e;
+  z-index: 1;
+}
+
+.dropdown-option {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+:root {
+  font-size: 16px;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  --transition-speed: 0.3s;
+}
